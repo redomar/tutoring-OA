@@ -1,0 +1,148 @@
+sfsd
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        var e = 5
+        e = 'x'
+        console.log(e)
+    </script>
+    <!-- Meta -- Data of data (information about information) -->
+    <meta charset="UTF-8"> <!-- -->>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="A basic website">
+
+
+    <!-- CSS -->
+    <!-- Inline, External, [Head]  -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+        /* Two seletors: class (Category), id */
+        /* Class = . */
+        /* Id = # */
+
+
+        #a-unique-p {
+
+            /* y (top/bot) and x (left/right)  */
+            /* top l&r bottom
+            /* top right bottom left */
+            margin: 50px 0px 10px 100px;
+            /* padding: 50px 0px 10px 100px; */
+            /* background-color: blue; */
+            font-size: 4vh;
+
+            /*
+            Units
+            px - 16px
+            em - 1em
+            rem - 1rem
+            % - perc
+            vh = vert height
+            vw = v width
+            */
+
+            font-family: 'Fira Code', monospace;
+
+            font-weight: 700;
+            /* 
+            font weigth is the thickness of the font
+            200 light
+            400 reg
+            700 bold
+            */
+            /* 
+            
+            Serif 
+            San-serif
+            Monospace
+            */
+        }
+
+        @media only screen and (max-width: 600px) {
+            #a-unique-p {
+                background-color: lightblue;
+                font-size: 1em;
+                font-weight: normal;
+                font-family: sans-serif;
+            }
+        }
+
+        #coffee {
+            height: auto;
+            max-width: 200px;
+
+        }
+
+        #box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            overflow: hidden;
+
+        }
+    </style>
+
+    <title>Homepage</title>
+</head>
+
+
+
+<body>
+
+    <header>
+        <nav>
+            <a href='google.com'> Google </a>
+
+            <div id="box">
+                <img id='coffee' src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG"
+                    alt="An image of a coffe mug">
+            </div>
+
+        </nav>
+        </nav>
+    </header>
+    <main>
+        <article></article>
+        <sub></sub>
+    </main>
+    <footer>
+    </footer>
+    <ul>
+        <li>
+            This is a list
+        </li>
+    </ul>
+    <h1>This is huge</h1>
+    <h6>This is the smallest Heading</h6>
+    <!-- <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusantium officiis a, laudantium dignissimos
+        molestiae voluptates fugiat numquam voluptatibus. Possimus animi necessitatibus rem sint illo voluptates ducimus
+        tempore incidunt. Alias.
+    </p>
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusantium officiis a, laudantium dignissimos
+        molestiae voluptates fugiat numquam voluptatibus. Possimus animi necessitatibus rem sint illo voluptates ducimus
+        tempore incidunt. Alias.
+    </span> -->
+    <div class='paragraph'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusantium officiis a, laudantium dignissimos
+        molestiae voluptates fugiat numquam voluptatibus. Possimus animi necessitatibus rem sint illo voluptates ducimus
+        tempore incidunt. Alias.
+    </div>
+    <div id='a-unique-p'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusantium officiis a, laudantium dignissimos
+        molestiae voluptates fugiat numquam voluptatibus. Possimus animi necessitatibus rem sint illo voluptates ducimus
+        tempore incidunt. Alias.
+    </div>
+    <div class='paragraph'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et accusantium officiis a, laudantium dignissimos
+        molestiae voluptates fugiat numquam voluptatibus. Possimus animi necessitatibus rem sint illo voluptates ducimus
+        tempore incidunt. Alias.
+    </div>
+</body>
+
+</html>
